@@ -1,0 +1,9 @@
+# Symfony / PHP
+/var/
+/vendor/
+/.env
+/.env.local
+
+# Cache and logs
+**/node_modules
+**/public/build

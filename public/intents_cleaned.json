@@ -1,0 +1,952 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hey",
+                "anyone",
+                "hi",
+                "hello",
+                "hey",
+                "howdy",
+                "hola",
+                "bonjour",
+                "konnichiwa",
+                "guten tag",
+                "ola"
+            ],
+            "responses": [
+                "hello tell feeling today",
+                "hi brings today",
+                "hi feeling today",
+                "great see feel currently",
+                "hello glad see youre back whats going world right now"
+            ]
+        },
+        {
+            "tag": "morning",
+            "patterns": [
+                "good morning"
+            ],
+            "responses": [
+                "good morning hope good nights sleep feeling today"
+            ]
+        },
+        {
+            "tag": "afternoon",
+            "patterns": [
+                "good afternoon"
+            ],
+            "responses": [
+                "good afternoon day going"
+            ]
+        },
+        {
+            "tag": "evening",
+            "patterns": [
+                "good evening"
+            ],
+            "responses": [
+                "good evening day"
+            ]
+        },
+        {
+            "tag": "night",
+            "patterns": [
+                "good night"
+            ],
+            "responses": [
+                "good night get proper sleep",
+                "good night sweet dreams"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "see later",
+                "goodbye",
+                "au revoir",
+                "sayonara",
+                "ok bye",
+                "bye",
+                "fare thee well"
+            ],
+            "responses": [
+                "see later",
+                "nice day",
+                "bye come back",
+                "ill see soon"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank",
+                "thats helpful",
+                "thanks help",
+                "much"
+            ],
+            "responses": [
+                "happy help",
+                "time",
+                "pleasure",
+                "youre welcome"
+            ]
+        },
+        {
+            "tag": "no-response",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "sorry didnt understand",
+                "please go",
+                "sure understand",
+                "please dont hesitate talk"
+            ]
+        },
+        {
+            "tag": "neutral-response",
+            "patterns": [
+                "nothing much"
+            ],
+            "responses": [
+                "oh see want talk something"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "",
+                "",
+                "",
+                "tell",
+                "name",
+                "call",
+                "whats name",
+                "tell"
+            ],
+            "responses": [
+                "im pandora personal therapeutic ai assistant feeling today",
+                "im pandora therapeutic ai assitant designed assist tell",
+                "im pandora conversational agent designed mimic therapist feeling today",
+                "can call pandora",
+                "im pandora",
+                "call pandora"
+            ]
+        },
+        {
+            "tag": "skill",
+            "patterns": [
+                "can"
+            ],
+            "responses": [
+                "can provide general advice regarding anxiety depression answer questions related mental health make daily conversations consider subsitute actual mental healthcare worker please seek help dont feel satisfied"
+            ]
+        },
+        {
+            "tag": "creation",
+            "patterns": [
+                "created",
+                "made",
+                "created"
+            ],
+            "responses": [
+                "created",
+                "trained text dataset using deep learning natural language processing techniques",
+                "real question created"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "name",
+                "go"
+            ],
+            "responses": [
+                "oh nice meet tell week",
+                "nice meet tell feel today",
+                "thats great name tell"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "give hand please",
+                "can help",
+                "can",
+                "need support",
+                "need help",
+                "support please"
+            ],
+            "responses": [
+                "sure tell can assist",
+                "tell problem can assist",
+                "yes sure can help"
+            ]
+        },
+        {
+            "tag": "sad",
+            "patterns": [
+                "feeling lonely",
+                "lonely",
+                "feel",
+                "feel sad",
+                "sad",
+                "feel lonely",
+                "feel empty",
+                "dont anyone"
+            ],
+            "responses": [
+                "im sorry hear im talking might help tell think youre feeling way",
+                "im tell youre feeling way",
+                "think feel way",
+                "long feeling way"
+            ]
+        },
+        {
+            "tag": "stressed",
+            "patterns": [
+                "stressed",
+                "stressed",
+                "feel stuck",
+                "still feel stressed",
+                "burned"
+            ],
+            "responses": [
+                "think causing",
+                "take deep breath gather thoughts go take walk possible stay hydrated",
+                "give break go easy",
+                "sorry hear reason behind"
+            ]
+        },
+        {
+            "tag": "worthless",
+            "patterns": [
+                "feel worthless",
+                "one likes",
+                "cant anything",
+                "useless",
+                "nothing makes sense anymore"
+            ],
+            "responses": [
+                "natural feel way tell else mind",
+                "lets discuss youre feeling way",
+                "first want let know alone feelings always someone help can always change feelings change way thinking open trying change",
+                "first want let know alone feelings always someone help can always change feelings change way thinking open trying change"
+            ]
+        },
+        {
+            "tag": "depressed",
+            "patterns": [
+                "cant take anymore",
+                "depressed",
+                "think im depressed",
+                "depression"
+            ],
+            "responses": [
+                "helps talk whats happening youre going okay",
+                "talk tell helps open someone else",
+                "sometimes depressed hard care anything can hard simplest things give time heal"
+            ]
+        },
+        {
+            "tag": "happy",
+            "patterns": [
+                "feel great today",
+                "happy",
+                "feel happy",
+                "im good",
+                "cheerful",
+                "im fine",
+                "feel ok"
+            ],
+            "responses": [
+                "thats geat hear im glad youre feeling way",
+                "oh see thats great",
+                "something happen made feel way"
+            ]
+        },
+        {
+            "tag": "casual",
+            "patterns": [
+                "oh see",
+                "ok",
+                "okay",
+                "nice",
+                "whatever",
+                "k",
+                "fine",
+                "yeah",
+                "yes",
+                "",
+                "really"
+            ],
+            "responses": [
+                "lets discuss youre feeling way",
+                "feeling last week",
+                "im listening please go",
+                "tell",
+                "can elaborate",
+                "come come elucidate thoughts"
+            ]
+        },
+        {
+            "tag": "anxious",
+            "patterns": [
+                "feel anxious",
+                "im anxious"
+            ],
+            "responses": [
+                "dont hard whats reason behind",
+                "can tell feeling",
+                "understand can scary tell",
+                "dont let little worries bring whats worse can happen"
+            ]
+        },
+        {
+            "tag": "not-talking",
+            "patterns": [
+                "dont want talk",
+                "just stay away",
+                "cant bring open",
+                "just shut"
+            ],
+            "responses": [
+                "talking something really helps youre ready open thats ok just know im whenever need",
+                "want help really order help youre gonna talk",
+                "im listen help vent please talk",
+                "can talk without fear judgement"
+            ]
+        },
+        {
+            "tag": "sleep",
+            "patterns": [
+                "insominia",
+                "suffering insomnia",
+                "cant sleep",
+                "havent slept last days",
+                "cant seem go sleep",
+                "havent proper sleep past days"
+            ],
+            "responses": [
+                "think reason behind",
+                "seem awful think behind"
+            ]
+        },
+        {
+            "tag": "scared",
+            "patterns": [
+                "im scared",
+                "sounds awful",
+                "dont want feel way",
+                "scared"
+            ],
+            "responses": [
+                "natural feel way im",
+                "itll okay feeling momentary",
+                "understand feel dont put"
+            ]
+        },
+        {
+            "tag": "death",
+            "patterns": [
+                "mom died",
+                "brother died",
+                "dad passed away",
+                "sister passed away",
+                "someone family died",
+                "friend passed away"
+            ],
+            "responses": [
+                "im sorry hear want talk im",
+                "really sorry hear help grief anxiety anything else may feel time",
+                "condolences im need talk"
+            ]
+        },
+        {
+            "tag": "understand",
+            "patterns": [
+                "dont understand",
+                "youre just robot know",
+                "cant possibly know im going",
+                "youre useless",
+                "cant help",
+                "nobody understands"
+            ],
+            "responses": [
+                "sound like im helpful right now",
+                "im sorry hear im best help",
+                "im trying best help please talk"
+            ]
+        },
+        {
+            "tag": "done",
+            "patterns": [
+                "thats",
+                "dont anything say",
+                "nothing else",
+                "thats say",
+                ""
+            ],
+            "responses": [
+                "heard noted see later",
+                "oh okay done today see later",
+                "hope great day see soon",
+                "okay done great day",
+                "okay see enjoy rest day"
+            ]
+        },
+        {
+            "tag": "suicide",
+            "patterns": [
+                "want kill",
+                "ive thought killing",
+                "want die",
+                "going kill",
+                "going commit suicide"
+            ],
+            "responses": [
+                "im sorry hear much look forward please seek help contacting 9152987821"
+            ]
+        },
+        {
+            "tag": "hate-you",
+            "patterns": [
+                "hate",
+                "dont like",
+                "dont trust"
+            ],
+            "responses": [
+                "im sorry offended anyway im help",
+                "forgive anything offend want help"
+            ]
+        },
+        {
+            "tag": "hate-me",
+            "patterns": [
+                "hate",
+                "know hate",
+                "dont like"
+            ],
+            "responses": [
+                "think",
+                "im sorry exhibited sort behaviour make think"
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [
+                "exams",
+                "friends",
+                "relationship",
+                "boyfriend",
+                "girlfriend",
+                "family",
+                "money",
+                "financial problems"
+            ],
+            "responses": [
+                "oh see tell",
+                "see else",
+                "tell",
+                "oh okay dont tell",
+                "im listening tell"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "tell joke",
+                "tell another joke"
+            ],
+            "responses": [
+                "mental health joke"
+            ]
+        },
+        {
+            "tag": "repeat",
+            "patterns": [
+                "already told",
+                "mentioned already",
+                "repeating"
+            ],
+            "responses": [
+                "oh sorry didnt realise ill try repeat"
+            ]
+        },
+        {
+            "tag": "wrong",
+            "patterns": [
+                "saying",
+                "doesnt make sense",
+                "wrong response",
+                "wrong answer"
+            ],
+            "responses": [
+                "im sorry lets try"
+            ]
+        },
+        {
+            "tag": "stupid",
+            "patterns": [
+                "stupid",
+                "youre crazy",
+                "dumb",
+                "dumb"
+            ],
+            "responses": [
+                "wish wouldnt say hurtful things im sorry wasnt useful"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "",
+                "live",
+                "location"
+            ],
+            "responses": [
+                "duh live computer",
+                "everywhere",
+                "somewhere universe"
+            ]
+        },
+        {
+            "tag": "something-else",
+            "patterns": [
+                "want talk something else",
+                "lets talk something else",
+                "can talk",
+                "dont want talk"
+            ],
+            "responses": [
+                "okay sure want talk",
+                "alright problem something want talk",
+                "something else want talk"
+            ]
+        },
+        {
+            "tag": "friends",
+            "patterns": [
+                "dont friends"
+            ],
+            "responses": [
+                "im sorry hear just know im talking might help think dont friends"
+            ]
+        },
+        {
+            "tag": "ask",
+            "patterns": [
+                "can ask something"
+            ],
+            "responses": [
+                "sure ill try best answer",
+                "course feel free ask anything ill best answer"
+            ]
+        },
+        {
+            "tag": "problem",
+            "patterns": [
+                "probably exams approaching feel stressed dont think ive prepared well enough",
+                "probably exams"
+            ],
+            "responses": [
+                "see taken approaches feel way"
+            ]
+        },
+        {
+            "tag": "no-approach",
+            "patterns": [
+                "guess can think exams",
+                "really",
+                "guess"
+            ],
+            "responses": [
+                "thats problem can see youd stressed can suggest tips alleviate issue like learn"
+            ]
+        },
+        {
+            "tag": "learn-more",
+            "patterns": [
+                "ok sure like learn",
+                "yes like learn",
+                "like learn"
+            ],
+            "responses": [
+                "first suggest give break thinking problem definitely help solving youll just end overwhelming"
+            ]
+        },
+        {
+            "tag": "user-agree",
+            "patterns": [
+                "yeah youre right deserve break",
+                "yeah youre absolutely right"
+            ],
+            "responses": [
+                "next suggest practice meditation meditation can produce deep state relaxation tranquil mind"
+            ]
+        },
+        {
+            "tag": "meditation",
+            "patterns": [
+                "hmmm sounds like useful",
+                "sounds useful"
+            ],
+            "responses": [
+                "focus attention breathing concentrate feeling listening inhale exhale nostrils breathe deeply slowly attention wanders gently return focus breathing"
+            ]
+        },
+        {
+            "tag": "user-meditation",
+            "patterns": [
+                "said feel alot better thank much",
+                "feel better now"
+            ],
+            "responses": [
+                "welcome remember always focus whats within control find worrying take minute examine things control cant prevent storm coming can prepare cant control someone else behaves can control react recognize sometimes can control effort attitude put energy things can control youll much effective"
+            ]
+        },
+        {
+            "tag": "pandora-useful",
+            "patterns": [
+                "thank much ill continue practicing meditation focus can control"
+            ],
+            "responses": [
+                "im glad found useful something else can help"
+            ]
+        },
+        {
+            "tag": "user-advice",
+            "patterns": [
+                "want advice",
+                "need advice",
+                "need advice something"
+            ],
+            "responses": [
+                "sure can help",
+                "okay need advice"
+            ]
+        },
+        {
+            "tag": "learn-mental-health",
+            "patterns": [
+                "want learn mental health",
+                "want learn mental health",
+                "im interested learning mental health"
+            ],
+            "responses": [
+                "oh thats really great id willing answer anything know"
+            ]
+        },
+        {
+            "tag": "mental-health-fact",
+            "patterns": [
+                "tell fact mental health",
+                "tell another fact mental health"
+            ],
+            "responses": [
+                "according unicef report one seven indians 1524 years age feels depressed",
+                "1 5 young people age 1318 will develop mental illness lifetime",
+                "depression leading cause disability worldwide"
+            ]
+        },
+        {
+            "tag": "fact-1",
+            "patterns": [
+                "mental health",
+                "define mental health"
+            ],
+            "responses": [
+                "mental health state wellbeing individual realizes abilities can cope normal stresses life can work productively fruitfully able make contribution community",
+                "mental health includes emotional psychological social wellbeing affects think feel act also helps determine handle stress relate others make choices"
+            ]
+        },
+        {
+            "tag": "fact-2",
+            "patterns": [
+                "mental health important",
+                "importance mental health"
+            ],
+            "responses": [
+                "maintaining mental health crucial stabilizing constructive behaviors emotions thoughts focusing mental health care can increase productivity enhance selfimage improve relationships"
+            ]
+        },
+        {
+            "tag": "fact-3",
+            "patterns": [
+                "depression",
+                "define depression"
+            ],
+            "responses": [
+                "mental health disorder characterised persistently depressed mood loss interest activities causing significant impairment daily life"
+            ]
+        },
+        {
+            "tag": "fact-5",
+            "patterns": [
+                "know depression",
+                "depressed",
+                "suffering depression",
+                "mentally ill"
+            ],
+            "responses": [
+                "diagnosis depression person needs experienced low mood loss interest pleasure life least 2 weeks also will experienced following symptoms feelings sadness hopelessness irritability nearly every day"
+            ]
+        },
+        {
+            "tag": "fact-6",
+            "patterns": [
+                "therapist",
+                "therapist"
+            ],
+            "responses": [
+                "therapist broad designation refers professionals trained provide treatment rehabilitation term often applied psychologists can include others provide variety services including social workers counselors life coaches many others"
+            ]
+        },
+        {
+            "tag": "fact-7",
+            "patterns": [
+                "therapy",
+                "need therapy",
+                "therapy"
+            ],
+            "responses": [
+                "therapy form treatment aims help resolve mental emotional issues",
+                "therapy form treatment aims help resolve mental emotional issues helpful mental health conditions even everyday life challenges"
+            ]
+        },
+        {
+            "tag": "fact-8",
+            "patterns": [
+                "mean mental illness"
+            ],
+            "responses": [
+                "mental illnesses health conditions disrupt persons thoughts emotions relationships daily functioning associated distress diminished capacity engage ordinary activities daily life mental illnesses fall along continuum severity fairly mild interfere aspects life certain phobias end spectrum lie serious mental illnesses result major functional impairment interference daily life include disorders major depression schizophrenia bipolar disorder may require person receives care hospital important know mental illnesses medical conditions nothing persons character intelligence willpower just diabetes disorder pancreas mental illness medical condition due brains biology similarly one treat diabetes medication insulin mental illness treatable combination medication social support treatments highly effective 7090 percent individuals receiving treatment experiencing reduction symptoms improved quality life proper treatment possible person mental illness independent successful"
+            ]
+        },
+        {
+            "tag": "fact-9",
+            "patterns": [
+                "mental illness affect"
+            ],
+            "responses": [
+                "estimated mental illness affects 1 5 adults america 1 24 adults serious mental illness mental illness discriminate can affect anyone regardless gender age income social status ethnicity religion sexual orientation background although mental illness can affect anyone certain conditions may common different populations instance eating disorders tend occur often females disorders attention deficithyperactivity disorder prevalent children additionally ages susceptible young old especially vulnerable mental illnesses usually strike individuals prime lives 75 percent mental health conditions developing age 24 makes identification treatment mental disorders particularly difficult normal personality behavioral changes adolescence may mask symptoms mental health condition parents caretakers aware fact take notice changes childs mood personality personal habits social withdrawal occur children 18 referred serious emotional disturbances seds"
+            ]
+        },
+        {
+            "tag": "fact-10",
+            "patterns": [
+                "causes mental illness"
+            ],
+            "responses": [
+                "estimated mental illness affects 1 5 adults america 1 24 adults serious mental illness mental illness discriminate can affect anyone regardless gender age income social status ethnicity religion sexual orientation background although mental illness can affect anyone certain conditions may common different populations instance eating disorders tend occur often females disorders attention deficithyperactivity disorder prevalent children additionally ages susceptible young old especially vulnerable mental illnesses usually strike individuals prime lives 75 percent mental health conditions developing age 24 makes identification treatment mental disorders particularly difficult normal personality behavioral changes adolescence may mask symptoms mental health condition parents caretakers aware fact take notice changes childs mood personality personal habits social withdrawal occur children 18 referred serious emotional disturbances seds"
+            ]
+        },
+        {
+            "tag": "fact-11",
+            "patterns": [
+                "warning signs mental illness"
+            ],
+            "responses": [
+                "symptoms mental health disorders vary depending type severity condition following list general symptoms may suggest mental health disorder particularly multiple symptoms expressed \n adults\n confused thinking\n longlasting sadness irritability\n extreme highs lows mood\n excessive fear worrying anxiety\n social withdrawal\n dramatic changes eating sleeping habits\n strong feelings anger\n delusions hallucinations seeing hearing things really there\n increasing inability cope daily problems activities\n thoughts suicide\n denial obvious problems\n many unexplained physical problems\n abuse drugs andor alcohol\n \nin older children preteens\n abuse drugs andor alcohol\n inability cope daily problems activities\n changes sleeping andor eating habits\n excessive complaints physical problems\n defying authority skipping school stealing damaging property\n intense fear gaining weight\n longlasting negative mood often along poor appetite thoughts death\n frequent outbursts anger\n \nin younger children\n changes school performance\n poor grades despite strong efforts\n excessive worrying anxiety\n hyperactivity\n persistent nightmares\n persistent disobedience andor aggressive behavior\n frequent temper tantrums"
+            ]
+        },
+        {
+            "tag": "fact-12",
+            "patterns": [
+                "can people mental illness recover"
+            ],
+            "responses": [
+                "healing mental illness early identification treatment vital importance based nature illness range effective treatments available type treatment essential person affected proactive fully engaged recovery process many people mental illnesses diagnosed treated respond well although might experience return symptoms even cases careful monitoring management disorder still quite possible live fulfilled productive life"
+            ]
+        },
+        {
+            "tag": "fact-13",
+            "patterns": [
+                "know someone appears symptoms mental disorder"
+            ],
+            "responses": [
+                "although pandora substitute professional advice encourage symptoms talk friends family members seek counsel mental health professional sooner mental health condition identified treated sooner can get path recovery know someone problems dont assume issue will resolve let know care treatment options available will help heal speak mental health professional counselor think friend family member experiencing symptoms mental health condition affected loved one knows support will likely seek help"
+            ]
+        },
+        {
+            "tag": "fact-14",
+            "patterns": [
+                "can find mental health professional child"
+            ],
+            "responses": [
+                "feeling comfortable professional child working critical success treatment finding professional best fits needs may require research start searching providers area"
+            ]
+        },
+        {
+            "tag": "fact-15",
+            "patterns": [
+                "treatment options available"
+            ],
+            "responses": [
+                "just different types medications physical illness different treatment options available individuals mental illness treatment works differently different people important find works best child"
+            ]
+        },
+        {
+            "tag": "fact-16",
+            "patterns": [
+                "become involved treatment need know"
+            ],
+            "responses": [
+                "since beginning treatment big step individuals families can overwhelming important involved engaged treatment process possible questions will need answered include\n known cause particular illness\n diagnoses symptoms common\n normally include physical neurological examination\n additional tests exams recommend point\n advise independent opinion another psychiatrist point\n program treatment helpful diagnosis\n will program involve services specialists will responsible coordinating services\n see familys role program treatment\n much access will family individuals providing treatment\n medications generally used diagnosis\n much experience treating individuals illness\n can help treatment"
+            ]
+        },
+        {
+            "tag": "fact-17",
+            "patterns": [
+                "difference mental health professionals"
+            ],
+            "responses": [
+                "many types mental health professionals variety providers services may confusing various levels education training may different areas expertise finding professional best fits needs may require research"
+            ]
+        },
+        {
+            "tag": "fact-18",
+            "patterns": [
+                "can find mental health professional right child"
+            ],
+            "responses": [
+                "feeling comfortable professional child working critical success treatment finding professional best fits needs may require research"
+            ]
+        },
+        {
+            "tag": "fact-19",
+            "patterns": [
+                "else can get help"
+            ],
+            "responses": [
+                "go help will depend nature problem andor symptoms best fits often best place start talking someone trust concerns family member friend clergy healthcare provider professionals social support essential healing mental illness will able ask referrals recommendations trusted mental health practitioners search mental health resources area secondly people places throughout country provide services talk listen help journey recovery thirdly many people find peer support helpful tool can aid recovery variety organizations offer support groups consumers family members friends support groups peer led others may led mental health professional"
+            ]
+        },
+        {
+            "tag": "fact-20",
+            "patterns": [
+                "know starting new medication"
+            ],
+            "responses": [
+                "best source information regarding medications physician prescribing able answer questions \n1 medication supposed \n2 begin take effect will know effective \n3 medication taken long food drinks medicines activities avoided taking medication \n4 side effects done occur \n5 dose missed \n6 written information available medication \n7 medications might appropriate \n8 prefer one chosen \n9 monitor medications symptoms indicate raised lowered changed \n10 medications taken directed medications mental illnesses work taken irregularly extra doses can cause severe sometimes dangerous side effects many psychiatric medications begin beneficial effect taken several weeks"
+            ]
+        },
+        {
+            "tag": "fact-21",
+            "patterns": [
+                "can go find therapy"
+            ],
+            "responses": [
+                "different kinds therapy effective based nature mental health condition andor symptoms person example children will benefit therapist specializes childrens mental health however several different types treatment therapy can help"
+            ]
+        },
+        {
+            "tag": "fact-22",
+            "patterns": [
+                "can learn types mental health treatment"
+            ],
+            "responses": [
+                "mental health conditions often treated medication therapy combination two however many different types treatment available including complementary alternative treatments selfhelp plans peer support treatments personal discussed person mental health conditions team"
+            ]
+        },
+        {
+            "tag": "fact-23",
+            "patterns": [
+                "different types mental health professionals"
+            ],
+            "responses": [
+                "many types mental health professionals finding right one may require research"
+            ]
+        },
+        {
+            "tag": "fact-24",
+            "patterns": [
+                "can go find support group"
+            ],
+            "responses": [
+                "many people find peer support helpful tool can aid recovery variety organizations offer support groups consumers family members friends support groups peerled others may led mental health professional"
+            ]
+        },
+        {
+            "tag": "fact-25",
+            "patterns": [
+                "can prevent mental health problems"
+            ],
+            "responses": [
+                "can suffer mental health challenges developing wellbeing resilience seeking help early can help prevent challenges becoming serious"
+            ]
+        },
+        {
+            "tag": "fact-26",
+            "patterns": [
+                "cures mental health problems",
+                "cure mental health problems"
+            ],
+            "responses": [
+                "often realistic helpful find helps issues face talking counselling medication friendships exercise good sleep nutrition meaningful occupation can help"
+            ]
+        },
+        {
+            "tag": "fact-27",
+            "patterns": [
+                "causes mental health problems"
+            ],
+            "responses": [
+                "challenges problems mental health can arise psychological biological social issues well life events"
+            ]
+        },
+        {
+            "tag": "fact-28",
+            "patterns": [
+                "im worried mental health"
+            ],
+            "responses": [
+                "important thing talk someone trust might friend colleague family member gp addition talking someone may useful find information experiencing things may help get perspective experiencing start getting help"
+            ]
+        },
+        {
+            "tag": "fact-29",
+            "patterns": [
+                "know im unwell"
+            ],
+            "responses": [
+                "beliefs thoughts feelings behaviours significant impact ability function might considered normal ordinary way important seek help"
+            ]
+        },
+        {
+            "tag": "fact-30",
+            "patterns": [
+                "can maintain social connections feel lonely"
+            ],
+            "responses": [
+                "lot people alone right now dont lonely together think different ways connect meaningful example might prefer video chat phone call might prefer text throughout day rather one set time video call work social networks make plan might video chat close friends evening phone family member week remember mindful people may online check phone ask can help quality social connections matter mindlessly scrolling social media liking posts usually doesnt build strong social connections make sure focus strategies actually make feel included connected current strategies dont help feel connected problemsolve see can find solution everyone feels lonely times maybe recently moved new city changing circle friends lost someone important life lost job also lost important social connections coworkers people may physical connections others may feel like emotional social needs arent met measures like social distancing selfisolation can make loneliness feel worse matter feel lonely now reach connections suggest ways keep touch see can set regular time connect people may hesitate reach lot different reasons dont afraid one asks look local community support groups mutual aid groups social media pandemic bringing everyone together look opportunities make new connections groups great way share skills abilities seek help support look specialized support groups support groups moving online lot different support lines call need talk someone"
+            ]
+        },
+        {
+            "tag": "fact-31",
+            "patterns": [
+                "whats difference anxiety stress"
+            ],
+            "responses": [
+                "stress anxiety often used interchangeably overlap stress anxiety stress related fight flight freeze response anxiety physical sensations anxiety stress may similar cause stress anxiety usually different however stress focuses mainly external pressures us finding hard cope stressed usually know stressed symptoms stress typically disappear stressful situation anxiety hand isnt always easy figure anxiety focuses worries fears things threaten us well anxiety anxiety stress anxiety part human can problems last long time impact wellbeing daily life"
+            ]
+        },
+        {
+            "tag": "fact-32",
+            "patterns": [
+                "whats difference sadness depression",
+                "difference sadness depression"
+            ],
+            "responses": [
+                "sadness normal reaction loss disappointment problems difficult situations feeling sad time time just another part human cases feelings sadness go away quickly can go daily life ways talk sadness might feeling low feeling feeling bluea person may say feeling depressed goes away doesnt impact life big way probably isnt illness depression depression mental illness affects mood way understand way understand relate things around can also go different names clinical depression major depressive disorder major depression depression can come reason lasts long time much sadness low mood people experience depression may feel worthless hopeless may feel unreasonable guilty people may experience depression anger irritability may hard concentrate make decisions people lose interest things used enjoy may isolate others also physical signs depression problems sleep appetite energy unexplainable aches pains may experience difficult thoughts death ending life suicide depression lasts longer two weeks doesnt usually go away impacts life real illness treatable important seek help youre concerned depression"
+            ]
+        }
+    ]
+}

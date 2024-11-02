@@ -1,0 +1,12 @@
+# Automatically normalize line endings
+* text=auto
+
+# Set LF for specific file types
+*.php text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
